@@ -52,7 +52,7 @@ class ResearchSession:
         
         self.start_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         self.base_folder = self.create_research_folders()
-        self.client = OpenAI(api_key='sk-91243ea8c2584fbc888cc7ed818cc4cf', base_url="https://api.deepseek.com")
+        self.client = OpenAI(api_key='YOUR_DEEPSEEK_API_KEY', base_url="https://api.deepseek.com")
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }

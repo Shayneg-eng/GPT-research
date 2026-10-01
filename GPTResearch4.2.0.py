@@ -14,7 +14,7 @@ from openai import OpenAI
 # ----------------------------------------------------------------
 
 # DeepSeek API configuration
-DEEPSEEK_API_KEY = "sk-91243ea8c2584fbc888cc7ed818cc4cf"
+DEEPSEEK_API_KEY = "YOUR_DEEPSEEK_API_KEY"
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 # Path to text files

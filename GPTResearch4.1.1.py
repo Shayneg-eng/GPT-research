@@ -11,7 +11,7 @@ from openai import OpenAI
 import time
 
 class ResearchBot:
-    def __init__(self, api_key="sk-91243ea8c2584fbc888cc7ed818cc4cf", research_dir="research"):
+    def __init__(self, api_key="YOUR_DEEPSEEK_API_KEY", research_dir="research"):
         """Initialize the researcher with DeepSeek API"""
         self.client = OpenAI(
             api_key=api_key,

@@ -17,7 +17,7 @@ class ResearchBot:
     def __init__(self, research_dir="research"):
         """Initialize the researcher with DeepSeek API"""
         self.client = OpenAI(
-            api_key='sk-91243ea8c2584fbc888cc7ed818cc4cf',
+            api_key='YOUR_DEEPSEEK_API_KEY',
             base_url="https://api.deepseek.com"
         )
         self.research_dir = research_dir

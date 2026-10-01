@@ -423,7 +423,7 @@ class ResearchSession:
 
 researchBot = ResearchSession()
 
-researchBot.apiKey = 'sk-91243ea8c2584fbc888cc7ed818cc4cf'
+researchBot.apiKey = 'YOUR_DEEPSEEK_API_KEY'
 researchBot.topic = 'History of Hamas and the PA'
 researchBot.numSources = 3
 researchBot.outputFormat = 'formal essay'
